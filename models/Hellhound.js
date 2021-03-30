@@ -1,6 +1,6 @@
 class Hellhound {
     constructor(
-        name = 'Cerberus',
+        nickname = 'Cerberus',
         gender = '',
         height = 5,
         color = 'black',
@@ -12,7 +12,7 @@ class Hellhound {
         type = 'rural',
         img = './assets/hellhound.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

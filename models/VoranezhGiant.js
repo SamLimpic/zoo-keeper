@@ -1,6 +1,6 @@
 class VoranezhGiant {
     constructor(
-        name = 'Voran',
+        nickname = 'Voran',
         gender = '',
         height = 9,
         color = 'silver',
@@ -12,7 +12,7 @@ class VoranezhGiant {
         type = 'extra-terrestrial',
         img = './assets/voranezh.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

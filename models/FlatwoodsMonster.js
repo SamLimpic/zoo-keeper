@@ -1,6 +1,6 @@
 class FlatwoodsMonster {
     constructor(
-        name = 'Flatwood',
+        nickname = 'Flatwood',
         gender = '',
         height = 10,
         color = 'black',
@@ -12,7 +12,7 @@ class FlatwoodsMonster {
         type = 'extra-terrestrial',
         img = './assets/flatwoods.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

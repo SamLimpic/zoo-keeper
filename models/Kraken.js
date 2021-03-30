@@ -1,6 +1,6 @@
 class Kraken {
     constructor(
-        name = 'Kraw',
+        nickname = 'Kraw',
         gender = null,
         length = 300,
         color = 'grey',
@@ -10,7 +10,7 @@ class Kraken {
         type = 'aquatic',
         img = './assets/kraken.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.length = length
         this.color = color
         this.hide = hide

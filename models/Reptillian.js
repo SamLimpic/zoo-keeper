@@ -1,6 +1,6 @@
 class Reptillian {
     constructor(
-        name = 'Tilly',
+        nickname = 'Tilly',
         gender = '',
         height = 7,
         color = 'green',
@@ -12,7 +12,7 @@ class Reptillian {
         type = 'sub-terranean',
         img = './assets/reptillian.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

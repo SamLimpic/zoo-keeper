@@ -1,6 +1,6 @@
 class Globster {
     constructor(
-        name = 'Globbs',
+        nickname = 'Globbs',
         gender = null,
         height = 2,
         color = 'grey',
@@ -9,7 +9,7 @@ class Globster {
         type = 'aquatic',
         img = './assets/globster.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.height = height
         this.color = color
         this.hide = hide

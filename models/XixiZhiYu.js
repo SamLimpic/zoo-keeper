@@ -1,6 +1,6 @@
 class XixiZhiYu {
     constructor(
-        name = 'Xzy',
+        nickname = 'Xzy',
         gender = '',
         length = 1,
         color = 'blue',
@@ -11,7 +11,7 @@ class XixiZhiYu {
         type = 'aquatic',
         img = './assets/xixi.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.length = length
         this.color = color

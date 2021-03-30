@@ -1,6 +1,6 @@
 class PopeLickMonster {
     constructor(
-        name = 'Pope',
+        nickname = 'Pope',
         gender = '',
         height = 7,
         color = 'brown',
@@ -12,7 +12,7 @@ class PopeLickMonster {
         type = 'rural',
         img = './assets/pope.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

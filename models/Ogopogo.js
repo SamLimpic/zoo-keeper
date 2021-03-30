@@ -1,6 +1,6 @@
 class Ogopogo {
     constructor(
-        name = 'Pogo',
+        nickname = 'Pogo',
         gender = '',
         length = 50,
         color = 'grey',
@@ -12,7 +12,7 @@ class Ogopogo {
         type = 'aquatic',
         img = './assets/ogopogo.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.length = length
         this.color = color

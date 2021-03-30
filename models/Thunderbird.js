@@ -1,6 +1,6 @@
 class Thunderbird {
     constructor(
-        name = 'Thundo',
+        nickname = 'Thundo',
         gender = '',
         length = 10,
         color = 'red',
@@ -12,7 +12,7 @@ class Thunderbird {
         type = 'aerial',
         img = './assets/thunderbird.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.length = length
         this.color = color

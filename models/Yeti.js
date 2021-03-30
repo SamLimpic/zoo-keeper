@@ -1,6 +1,6 @@
 class Yeti {
     constructor(
-        name = 'Abe',
+        nickname = 'Abe',
         gender = '',
         height = 10,
         color = 'red',
@@ -11,7 +11,7 @@ class Yeti {
         type = 'rural',
         img = './assets/yeti.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

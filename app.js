@@ -55,7 +55,7 @@ let zoo = [
     new Zaratan('Ooguay', 'male', 400),
 ]
 
-let dirtPile = []
+let dirt = []
 let tank = []
 let cage = []
 let field = []
@@ -63,38 +63,121 @@ let alley = []
 let containment = []
 //#endregion
 
-function fillDirt() {
-    dirtPile = zoo.filter(cryptid => cryptid.type == 'sub-terranean')
+function drawDirt() {
+    dirt = zoo.filter(cryptid => cryptid.type == 'sub-terranean')
+    let dirtElement = document.getElementById("dirt")
+    let dirtTemplate = ''
+    dirt.forEach(cryptid => {
+        dirtTemplate += `
+            <div class="col-3 card shadow p-2 m-3 text-center">
+                <div>
+                    <h3>${cryptid.nickname}</h3>
+                    <img class="img-fluid p-3" src="${cryptid.img}" alt="">
+                    <h4>${cryptid.constructor.name}</h4>
+                </div>
+            </div>
+        `
+        dirtElement.innerHTML = dirtTemplate
+    })
 }
 
-function fillTank() {
+function drawTank() {
     tank = zoo.filter(cryptid => cryptid.type == 'aquatic')
+    let tankElement = document.getElementById("tank")
+    let tankTemplate = ''
+    tank.forEach(cryptid => {
+        tankTemplate += `
+            <div class="col-3 card shadow p-2 m-3 text-center">
+                <div>
+                    <h3>${cryptid.nickname}</h3>
+                    <img class="img-fluid p-3" src="${cryptid.img}" alt="">
+                    <h4>${cryptid.constructor.name}</h4>
+                </div>
+            </div>
+        `
+        tankElement.innerHTML = tankTemplate
+    })
 }
 
-function fillCage() {
+function drawCage() {
     cage = zoo.filter(cryptid => cryptid.type == 'aerial')
+    let cageElement = document.getElementById("cage")
+    let cageTemplate = ''
+    cage.forEach(cryptid => {
+        cageTemplate += `
+            <div class="col-3 card shadow p-2 m-3 text-center">
+                <div>
+                    <h3>${cryptid.nickname}</h3>
+                    <img class="img-fluid p-3" src="${cryptid.img}" alt="">
+                    <h4>${cryptid.constructor.name}</h4>
+                </div>
+            </div>
+        `
+        cageElement.innerHTML = cageTemplate
+    })
 }
 
-function fillField() {
+function drawField() {
     field = zoo.filter(cryptid => cryptid.type == 'rural')
+    let fieldElement = document.getElementById("field")
+    let fieldTemplate = ''
+    field.forEach(cryptid => {
+        fieldTemplate += `
+            <div class="col-3 card shadow p-2 m-3 text-center">
+                <div>
+                    <h3>${cryptid.nickname}</h3>
+                    <img class="img-fluid p-3" src="${cryptid.img}" alt="">
+                    <h4>${cryptid.constructor.name}</h4>
+                </div>
+            </div>
+        `
+        fieldElement.innerHTML = fieldTemplate
+    })
 }
 
-function fillAlley() {
+function drawAlley() {
     alley = zoo.filter(cryptid => cryptid.type == 'urban')
+    let alleyElement = document.getElementById("alley")
+    let alleyTemplate = ''
+    alley.forEach(cryptid => {
+        alleyTemplate += `
+            <div class="col-3 card shadow p-2 m-3 text-center">
+                <div>
+                    <h3>${cryptid.nickname}</h3>
+                    <img class="img-fluid p-3" src="${cryptid.img}" alt="">
+                    <h4>${cryptid.constructor.name}</h4>
+                </div>
+            </div>
+        `
+        alleyElement.innerHTML = alleyTemplate
+    })
 }
 
-function fillContainment() {
+function drawContainment() {
     containment = zoo.filter(cryptid => cryptid.type == 'extra-terrestrial')
+    let containmentElement = document.getElementById("containment")
+    let containmentTemplate = ''
+    containment.forEach(cryptid => {
+        containmentTemplate += `
+            <div class="col-3 card shadow p-2 m-3 text-center">
+                <div>
+                    <h3>${cryptid.nickname}</h3>
+                    <img class="img-fluid p-3" src="${cryptid.img}" alt="">
+                    <h4>${cryptid.constructor.name}</h4>
+                </div>
+            </div>
+        `
+        containmentElement.innerHTML = containmentTemplate
+    })
 }
 
-function fillZoo() {
-    fillDirt()
-    fillTank()
-    fillCage()
-    fillField()
-    fillAlley()
-    fillContainment()
-    console.log(dirtPile, tank, cage, field, alley, containment)
+function drawZoo() {
+    drawDirt()
+    drawTank()
+    drawCage()
+    drawField()
+    drawAlley()
+    drawContainment()
+    console.log(dirt, tank, cage, field, alley, containment)
 }
-
-fillZoo()
+drawZoo()

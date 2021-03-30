@@ -1,6 +1,6 @@
 class Inkanyamba {
     constructor(
-        name = 'Inky',
+        nickname = 'Inky',
         gender = '',
         length = 20,
         color = 'black',
@@ -12,7 +12,7 @@ class Inkanyamba {
         type = 'aquatic',
         img = './assets/inkanyamba.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.length = length
         this.color = color

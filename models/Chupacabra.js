@@ -1,6 +1,6 @@
 class Chupacabra {
     constructor(
-        name = 'Chalupa',
+        nickname = 'Chalupa',
         gender = '',
         height = 4,
         color = 'brown',
@@ -11,7 +11,7 @@ class Chupacabra {
         type = 'rural',
         img = './assets/chupacabra.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

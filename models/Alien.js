@@ -1,6 +1,6 @@
 class Alien {
     constructor(
-        name = 'Grey',
+        nickname = 'Grey',
         gender = '',
         height = 3,
         color = 'grey',
@@ -12,7 +12,7 @@ class Alien {
         type = 'extra-terrestrial',
         img = './assets/alien.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

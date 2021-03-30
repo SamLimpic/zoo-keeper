@@ -1,6 +1,6 @@
 class DeathWorm {
     constructor(
-        name = 'Tremor',
+        nickname = 'Tremor',
         gender = '',
         length = 5,
         color = 'red',
@@ -9,7 +9,7 @@ class DeathWorm {
         type = 'sub-terranean',
         img = './assets/death.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.length = length
         this.color = color

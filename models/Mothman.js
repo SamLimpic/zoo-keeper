@@ -1,6 +1,6 @@
 class Mothman {
     constructor(
-        name = 'Mothra',
+        nickname = 'Mothra',
         gender = '',
         height = 7,
         color = 'brown',
@@ -12,7 +12,7 @@ class Mothman {
         type = 'urban',
         img = './assets/mothman.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

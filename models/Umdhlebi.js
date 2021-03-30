@@ -1,6 +1,6 @@
 class Umdhlebi {
     constructor(
-        name = 'Huorn',
+        nickname = 'Huorn',
         gender = '',
         height = 10,
         color = 'black',
@@ -10,7 +10,7 @@ class Umdhlebi {
         type = 'rural',
         img = './assets/umdhlebi.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.height = height
         this.color = color
         this.hide = hide

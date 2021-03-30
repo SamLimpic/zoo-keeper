@@ -1,6 +1,6 @@
 class Nessie {
     constructor(
-        name = 'Nessie',
+        nickname = 'Nessie',
         gender = '',
         length = 30,
         color = 'blue',
@@ -12,7 +12,7 @@ class Nessie {
         type = 'aquatic',
         img = './assets/nessie.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.length = length
         this.color = color

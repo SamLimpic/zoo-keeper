@@ -1,6 +1,6 @@
 class JerseyDevil {
     constructor(
-        name = 'Jersey',
+        nickname = 'Jersey',
         gender = '',
         height = 4,
         color = 'black',
@@ -12,7 +12,7 @@ class JerseyDevil {
         type = 'urban',
         img = './assets/jersey.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

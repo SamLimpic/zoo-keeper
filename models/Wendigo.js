@@ -1,6 +1,6 @@
 class Wendigo {
     constructor(
-        name = 'Wendy',
+        nickname = 'Wendy',
         gender = '',
         height = 7,
         color = 'grey',
@@ -11,7 +11,7 @@ class Wendigo {
         type = 'rural',
         img = './assets/wendigo.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

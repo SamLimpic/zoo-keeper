@@ -1,6 +1,6 @@
 class Sasquatch {
     constructor(
-        name = 'Sassy',
+        nickname = 'Sassy',
         gender = '',
         height = 7,
         color = 'brown',
@@ -11,7 +11,7 @@ class Sasquatch {
         type = 'rural',
         img = './assets/sasquatch.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

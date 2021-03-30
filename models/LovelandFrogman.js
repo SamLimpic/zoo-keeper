@@ -1,6 +1,6 @@
 class LovelandFrogman {
     constructor(
-        name = 'Loveland',
+        nickname = 'Loveland',
         gender = '',
         height = 3,
         color = 'grey',
@@ -12,7 +12,7 @@ class LovelandFrogman {
         type = 'aquatic',
         img = './assets/loveland.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

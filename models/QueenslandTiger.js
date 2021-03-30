@@ -1,6 +1,6 @@
 class QueenslandTiger {
     constructor(
-        name = 'Queenie',
+        nickname = 'Queenie',
         gender = '',
         height = 5,
         color = 'brown',
@@ -12,7 +12,7 @@ class QueenslandTiger {
         type = 'rural',
         img = './assets/queensland.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color

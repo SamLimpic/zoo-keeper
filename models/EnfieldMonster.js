@@ -1,6 +1,6 @@
 class EnfieldMonster {
     constructor(
-        name = 'Enfield',
+        nickname = 'Enfield',
         gender = '',
         height = 4,
         color = 'grey',
@@ -11,7 +11,7 @@ class EnfieldMonster {
         type = 'urban',
         img = './assets/enfield.png'
     ) {
-        this.name = name
+        this.nickname = nickname
         this.gender = gender
         this.height = height
         this.color = color
